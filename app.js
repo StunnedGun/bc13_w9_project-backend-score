@@ -6,7 +6,7 @@ import cors from 'cors'
 
 export const app = express();
 //const PORT = process.env.port || 3001;
-
+// nothing
 app.use(cors());
 app.use(morgan("dev"));
 app.use(express.static("public"));
